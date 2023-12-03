@@ -1,0 +1,16 @@
+{
+    "port": 8080,
+    "route": {
+        "path": "/api",
+        "get": "function",
+        "route": {
+            "path": "/test",
+            "get": "get-api-test",
+            "route": {
+                "path": "/ciao",
+                "get":"function",
+                "post": "function"
+            }
+        }
+    }
+}
